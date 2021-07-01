@@ -1,0 +1,80 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>TeamCord</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link rel="stylesheet" href="main.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <svg class="first-svg"xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#A683E3" fill-opacity="1" d="M0,288L0,224L75.8,224L75.8,224L151.6,224L151.6,96L227.4,96L227.4,64L303.2,64L303.2,192L378.9,192L378.9,160L454.7,160L454.7,224L530.5,224L530.5,64L606.3,64L606.3,256L682.1,256L682.1,224L757.9,224L757.9,128L833.7,128L833.7,32L909.5,32L909.5,64L985.3,64L985.3,256L1061.1,256L1061.1,256L1136.8,256L1136.8,224L1212.6,224L1212.6,192L1288.4,192L1288.4,256L1364.2,256L1364.2,192L1440,192L1440,0L1364.2,0L1364.2,0L1288.4,0L1288.4,0L1212.6,0L1212.6,0L1136.8,0L1136.8,0L1061.1,0L1061.1,0L985.3,0L985.3,0L909.5,0L909.5,0L833.7,0L833.7,0L757.9,0L757.9,0L682.1,0L682.1,0L606.3,0L606.3,0L530.5,0L530.5,0L454.7,0L454.7,0L378.9,0L378.9,0L303.2,0L303.2,0L227.4,0L227.4,0L151.6,0L151.6,0L75.8,0L75.8,0L0,0L0,0Z"></path></svg>
+  <nav class="navbar navbar-expand-lg navbar-light  navbar-static-top">
+    <a class="navbar-brand" id="brand" href="#">TeamCord</a>
+    <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon "></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="/">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/todolist">Allocation</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/chat">ChatRoom</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <div class="first-div">
+    <h1 class="head"><img class="group" src="images/group.png" alt="Brainstroming">TeamCord</h1>
+    <p class="lead">To work along with your group, assigning the work between teammates and to communicate with team mates through chatroom.</p>
+    </p>
+
+  </div>
+
+  <div class="second-div">
+     <h2 class="div-top">WORK ALLOCATION</h2>
+     <p>
+       Work allocation for whole day and individual work allocation can be done through this segment.
+     </p>
+     <h3>FEATURES</h3>
+     <img class="work-feautre-img" src="images/brainstorm.png" alt="">
+     <img class="work-feautre-img" src="images/add.png" alt="">
+     <img class="work-feautre-img" src="images/editing.png" alt="">
+     <img class="work-feautre-img" src="images/delete-file.png" alt="">
+     <img class="work-feautre-img" src="images/candidate.png" alt="">
+     <img class="work-feautre-img" src="images/goals.png" alt="">
+     <form  action="/gototodo" method="post">
+       <button class="btn btn-primary"type="submit" name="button">Click me!</button>
+     </form>
+
+  </div>
+
+  <div class="third-div">
+     <h2 class="div-top">TO COMMUNICATE WITH YOUR FRIENDS</h3>
+      <img class="work-feautre-img" src="images/chat.png" alt="">
+     <p>
+       This chat room is created to built the team spirit in the employees.
+     </p>
+     <form  action="/gotochat" method="post">
+        <button class="btn btn-primary" type="submit" name="button">Click me!</button>
+     </form>
+
+
+   </div>
+
+  </div>
+</body>
+
+</html>

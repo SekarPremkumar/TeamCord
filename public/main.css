@@ -1,0 +1,51 @@
+body {
+  font-family: 'Akaya Kanadaka', cursive;
+  background-color: #E4E9FD;
+  font-size: 1.5rem;
+}
+
+.group{
+  width:6%;
+  padding-right: 2%;
+}
+
+.first-div {
+  text-align: center;
+  padding: 20% 20% 17% 20%;
+  font-size: 3rem;
+
+}
+
+h1{
+  padding-bottom: 5%;
+  font-size: 4rem;
+}
+.lead{
+  font-size: 1.8rem;
+}
+.first-svg{
+  position: absolute;
+  z-index: -1;
+  left:0px;
+
+}
+
+.second-div {
+  text-align: center;
+  padding-left:20% ;
+  padding-right: 20%;
+  padding-bottom: 10%;
+}
+.work-feautre-img{
+  width: 10%;
+  padding:2%;
+}
+.div-top{
+  padding-bottom: 2%;
+}
+.third-div {
+  text-align: center;
+  padding-left:20% ;
+  padding-right: 20%;
+  padding-bottom: 5%;
+}
